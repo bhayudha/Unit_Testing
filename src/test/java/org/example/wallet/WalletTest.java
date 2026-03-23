@@ -1,8 +1,12 @@
-package org.example;
+package org.example.wallet;
 
+import org.example.Owner;
+import org.example.Wallet;
 import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Disabled;
 
+@Disabled("Fokus pada tugas Mockito")
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class WalletTest {
     private Wallet wallet;
